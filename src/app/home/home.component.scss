@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: Poppins, sans-serif;
+}
+
+.container-field {
+    background-image: url(../../assets/Images/bgImage.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.logo-container {
+    padding: 2rem 11.4rem 0;
+}
+
+.logoIcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.logo {
+    height: 5rem;
+    width: 16.665rem;
+    object-fit: cover;
+}
+
+.heading {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 6rem;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 2rem 11.4rem 0;
+}
+
+.chartImage {
+   height: 41.2rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(5px);
+}
+.text-container{
+    color: #fff;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+mat-label{
+    height: 1.9rem;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 2rem;
+    text-align: start;
+}
+.form-control{
+    height: 3rem;
+    width: 100%;
+    border: 1px solid rgba(33,39,54,.1);
+    border-radius: 0.8rem;
+    background-color: #fff;
+    outline: none;
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    margin: 20px 0px 15px 0px;
+}
+button.form-control{
+    height: 3rem;
+    width: 11.8rem;
+    border: 0.2rem solid #FFFFFF;
+    border-radius: 0.8rem;
+    background-color: #1f81e4;
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+}
+.example-card {
+    min-height: 11rem;
+    width: 20.1rem;
+    border: 1px solid #DBDBDB;
+    border-radius: 0.8rem;
+    background-color: #fff;
+    // padding: 2.05rem;
+    box-shadow: 1px 2px 5px #00000080;
+  }
+.card{
+    padding: 2rem 11.4rem 0;
+    padding-bottom: 30px;
+    background-color: #0000004f;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+p{
+    color: #15182d;
+    font-size: 1.3rem;
+    letter-spacing: 0;
+    line-height: 2rem;
+}
+.container-field .card{
+    background-image: url(../../assets/Images/skybg.1f8b710f2d9f19da7c13.jpg);
+}
+.headingCard{
+    color: #fff;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    margin: 44px 0px 63px 70px;
+}
+.footer{
+    background-color: #0e1f35;
+    padding: 4rem 0 4rem 0;
+}
+.icon{
+    padding: 0px 10px 0px 10px;
+}
+.copyrights{
+    height: 21px;
+    width: 191px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 23px;
+}
+.copyRight{
+    padding: 2rem 0 0 0;
+}

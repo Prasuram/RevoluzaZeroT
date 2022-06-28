@@ -28,9 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js"]
           },
           "configurations": {
             "production": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ZerotApp"
+    }
+  },
+  "defaultProject": "ZerotApp",
+  "cli": {
+    "analytics": "5cebe6db-0772-4e17-98c9-3bdb45062a98"
+  }
 }

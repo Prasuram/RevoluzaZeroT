@@ -1,0 +1,156 @@
+<div class="container-field">
+    <div class="logo-container">
+        <div class="row logoIcon">
+            <div class="col-md-12">
+                <img class="logo" src="../../assets/Images/logo.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="heading">&nbsp;&nbsp;&nbsp;&nbsp; The World's First <br> Cognitive OPS Platform</h1>
+            </div>
+        </div>
+    </div>
+    <div class="form-container">
+        <div class="row">
+            <div class="col-md-5">
+                <img class="chartImage" src="../../assets/Images/chartImage.jpg" alt="">
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+                <h1 class="text-container">{{thankU}}</h1>
+                <br><br>
+                <div class="form">
+                    <div class="row">
+                        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                            <div class="row form-group">
+                                <div class="col-sm-5">
+                                    <mat-label for="firstname">First Name</mat-label>
+                                    <input matInput type="text" formControlName="firstname" class="form-control">
+                                </div>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <div class="col-sm-5">
+                                    <mat-label for="lastname">Last Name</mat-label>
+                                    <input matInput type="text" formControlName="lastname" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-sm-6">
+                                    <mat-label for="email">Email</mat-label>
+                                    <input matInput type="email" formControlName="email" class="form-control">
+                                </div>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <div class="col-sm-4">
+                                    <mat-label><br></mat-label>
+                                    <button mat-button type="submit" class="form-control">
+                                        Sign Up
+                                    </button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-field">
+    <div class="card">
+        <h1 class="headingCard">ZeroT.ai Enterprise Canvas will soon deliver:</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <mat-card class="example-card">
+                    <mat-card-title>
+                        <img src="../../assets/Images/brain.png" alt="">
+                    </mat-card-title>
+                    <mat-card-content>
+                        <p>World's First Cognitive OPS Platform.</p>
+                    </mat-card-content>
+
+                </mat-card>
+
+            </div>
+            <div class="col-md-4">
+                <mat-card class="example-card">
+                    <mat-card-title>
+                        <img src="../../assets/Images/target.png" alt="">
+                    </mat-card-title>
+                    <mat-card-content>
+                        <p>To get your focus back to applications rather than operations and infrastructure.</p>
+                    </mat-card-content>
+                </mat-card>
+
+            </div>
+            <div class="col-md-4">
+                <mat-card class="example-card">
+                    <mat-card-title>
+                        <img src="../../assets/Images/money-bag.png" alt="">
+                    </mat-card-title>
+                    <mat-card-content>
+                        <p>Cognitive Management of Cost and Performance</p>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-md-4">
+                <mat-card class="example-card">
+                    <mat-card-title>
+                        <img src="../../assets/Images/drag.png" alt="">
+                    </mat-card-title>
+                    <mat-card-content>
+                        <p>Visual Ops rather than old school codes.</p>
+                    </mat-card-content>
+                </mat-card>
+
+            </div>
+            <div class="col-md-4">
+                <mat-card class="example-card">
+                    <mat-card-title>
+                        <img src="../../assets/Images/setting.png" alt="">
+                    </mat-card-title>
+                    <mat-card-content>
+                        <p>App aware Infrastructure that Autoscales Up/Down.</p>
+                    </mat-card-content>
+                </mat-card>
+
+            </div>
+            <div class="col-md-4">
+                <mat-card class="example-card">
+                    <mat-card-title>
+                        <img src="../../assets/Images/business-report.png" alt="">
+                    </mat-card-title>
+                    <mat-card-content>
+                        <p>​Industry First Visual Infrastructure.</p>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="row">
+        <div class="col-md-5"></div>
+        <div class="col-md-2">
+            <span class="icon">
+                <a href="https://www.facebook.com/"><img src="../../assets/Images/Facebook.png" alt=""></a>
+            </span>
+            <span class="icon">
+                <a href="https://www.linkedin.com/"><img src="../../assets/Images/LinkdIn.png" alt=""></a>
+            </span>
+            <span class="icon">
+                <a href="https://www.twitter.com/"><img src="../../assets/Images/Twitter.png" alt=""></a>
+            </span>
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+    <div class="row copyRight">
+        <div class="col-md-5"></div>
+        <div class="col-md-2">
+            <p class="copyrights">Copyright&copy; 2021 ZeroT.ai</p>
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+</div>
